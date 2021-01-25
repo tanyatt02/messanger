@@ -1,0 +1,56 @@
+{
+    "name": "project",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack --mode development",
+        "dev": "webpack-dev-server",
+        "serve": "nodemon server",
+        "crfull": "node utils/componentCreator/index.js --n",
+        "crless": "node utils/componentCreator/index.js --s --n"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "^7.11.4",
+        "@babel/plugin-proposal-class-properties": "^7.10.4",
+        "@babel/preset-env": "^7.11.0",
+        "@babel/preset-react": "^7.10.4",
+        "babel-loader": "^8.1.0",
+        "connected-react-router": "^6.8.0",
+        "css-loader": "^4.2.2",
+        "express": "^4.17.1",
+        "html-webpack-plugin": "^4.3.0",
+        "mini-css-extract-plugin": "^0.11.0",
+        "nodemon": "^2.0.6",
+        "react-addons-update": "^15.6.2",
+        "react-redux": "^7.2.2",
+        "redux": "^4.0.5",
+        "source-map-loader": "^1.1.2",
+        "ts-loader": "^8.0.10",
+        "webpack": "^4.44.1",
+        "webpack-cli": "^3.3.12",
+        "webpack-dev-server": "^3.11.0"
+    },
+    "dependencies": {
+        "@material-ui/core": "^4.11.0",
+        "@material-ui/icons": "^4.9.1",
+        "bootstrap": "^4.5.2",
+        "fs": "0.0.1-security",
+        "history": "^4.10.1",
+        "jquery": "^3.5.1",
+        "minimist": "^1.2.5",
+        "mongoose": "^5.11.9",
+        "path": "^0.12.7",
+        "popper.js": "^1.16.1",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1",
+        "react-router-dom": "^5.2.0",
+        "redux-api-middleware": "^3.2.1"
+    },
+    "nodemonConfig": {
+        "ignore": "*.json"
+    }
+}

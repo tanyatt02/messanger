@@ -1,0 +1,13 @@
+{
+    "id": "u-0",
+    "name": "",
+    "password": "lorem",
+    "contacts": [{
+            "title": "contact-0",
+            "id": "c-0"
+        }],
+    "chats": [{
+            "title": "contact-0",
+            "id": "c-0"
+        }]
+}
