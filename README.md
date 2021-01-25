@@ -1,5 +1,5 @@
 Проект замусоренный, так как писался в процессе обучения постепенно.
-Сначала надо запустить из serverMongo/load/user.js,message.js, chat.js
+Сначала надо запустить из serverMongo/load/user.js,message.js, chat.ов
 это загрузка в mongoDb данных из server/db соответстввующих json щи
 
 Затем сервер npm run serve на порту 3335
